@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manjot Singh - Developer</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,700;0,800;1,300;1,400;1,600;1,800&display=swap');
+    </style>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(20, 20, 55);
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(5, 5, 117);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(114, 33, 190);
+            font-size: 1.04rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: x-large;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+        }
+
+        .rightSection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(151, 91, 207);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondSection {
+            max-width: 88vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 2.5rem;
+            text-align: left;
+            font-style: normal;
+            text-align: center;
+        }
+
+        .secondSection .box {
+            background-color: white;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+        }
+
+
+
+        .paraOne {
+            font-size: x-large;
+            text-align: center;
+        }
+
+        .paraTwo {
+            font-size: x-large;
+            text-align: center;
+        }
+
+        .paraThree {
+            font-size: x-large;
+            text-align: center;
+        }
+
+        .paraFour {
+            font-size: x-large;
+            text-align: center;
+        }
+
+        .space {
+            border: 0;
+            background-color: rgb(20, 20, 55);
+            height: 1.2px;
+            margin: 28px 84px;
+        }
+
+        .pspace {
+            border: 0;
+            background-color: rgb(20, 20, 55);
+            height: 1.2px;
+            margin: 11px 84px;
+        }
+
+        .thirdsection h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .thirdsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+
+        .beige {
+            color: rgb(253, 253, 253);
+
+        }
+
+        .thirdsection .box {
+            margin-top: 240px;
+            background: white;
+            width: 80vw;
+            height: 2px;
+            display: flex;
+
+        }
+
+        .thirdsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0px 204px;
+        }
+
+        .image-top {
+            border: 5px solid #ffffff;
+            width: 380px;
+            position: relative;
+            top: -224px;
+            left: -200px;
+        }
+
+
+        .vertical-title {
+            position: relative;
+            top: -92px;
+            width: 300px;
+            left: -127px;
+            font-size: 1.5rem;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: -88px;
+            width: 400px;
+            left: -158px;
+            color: white;
+        }
+
+        .forthsection h1 {
+            font-size: 3.5rem;
+            text-align: center;
+
+        }
+
+        .forthsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .forthsection .box {
+            margin-top: 240px;
+            background: white;
+            width: 80vw;
+            height: 0px;
+            display: flex;
+
+        }
+
+        .forthsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0px 204px;
+        }
+
+        .image-top2 {
+            width: 380px;
+            position: relative;
+            top: -224px;
+            left: -200px;
+        }
+
+        .vertical-title2 {
+            position: relative;
+            top: -220px;
+            width: 300px;
+            left: -69px;
+            font-size: 2rem;
+        }
+
+        .vertical-desc2 {
+            position: relative;
+            top: -210px;
+            width: 400px;
+            left: -202px;
+            color: white;
+        }
+
+        .image-top3 {
+            width: 380px;
+            position: relative;
+            top: -224px;
+            left: -200px;
+        }
+
+        footer {
+            background-color: rgb(54, 53, 53);
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 123px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: white;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Manjot's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hello to you! I'm <span class="purple">Manjot Singh</span>
+                <div>And I'm a passionate Web Developer.</div>
+            </div>
+            <span id="element"></span>
+            <div class="rightSection">
+                <img src="bgg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+
+            <h1>About Me</h1>
+            <hr class="space">
+            <p class="paraOne">
+                Hello! I'm Manjot Singh, currently a third year tech student of Guru Tegh Bahadur Institute of
+                Technology (GTBIT), pursuing my passion for technology and innovation. My academic journey has equipped
+                me with a strong foundation in computer science, and I am particularly drawn to the dynamic field of web
+                development.
+            </p>
+            <hr class="pspace">
+            <p class="paraTwo">
+                I have been honing my skills in HTML, CSS, JavaScript, and various web development frameworks.
+                Currently, I'm also so interning at Codsoft, where I am gaining practical experience and working on
+                real-world projects that challenge me to apply my knowledge and learn new skills. This hands-on
+                experience has been invaluable in shaping my understanding of the industry and enhancing my
+                problem-solving abilities.
+            </p>
+            <hr class="pspace">
+            <p class="paraThree">
+                My long-term goal is to become a proficient full-stack developer, contributing to impactful projects
+                that make a difference in people's lives. I am excited about the future and the endless possibilities
+                that the tech world offers. I am open to collaborations, internships, and any opportunities that allow
+                me to apply my skills and contribute meaningfully.
+            </p>
+            <hr class="space">
+            <p class="paraFour">
+                Thank you for visiting my portfolio. Feel free to explore my projects and connect with me if you have
+                any questions or potential collaboratione in mind. Let's create something amazing together!
+            </p>
+            </div>
+            <hr class="space">
+            <hr>
+        </section>
+        <section class="thirdsection">
+            <hr class="space">
+            <section class="thirdsection">
+
+                <h1>Projects</h1>
+                <br>
+                <span class="beige" style="margin-left: 4px;font-size: 1.5rem; ">Projects I have worked on :-</span>
+                <br>
+                <br>
+                <div class="box">
+
+                    <div class="vertical">
+                        <img class="image-top" src="portproject.png" alt="project 1" height="200px"
+                        width="50px">
+                        <div class="vertical-title" >
+                            Personal Portfolio Website
+                        </div>
+                        <div class="vertical-desc">
+                            This is a personal portfolio project I have made using HTML and CSS. This project showcases
+                            my
+                            overall work and experience I have as a web developer.
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="land.png" alt="project 1" height="200px"
+                        width="50px">
+                        <div class="vertical-title">
+                            Landing Page
+                        </div>
+                        <div class="vertical-desc">
+                            This is a landing page project which showcases the first page when we open a website. I have
+                            taken an example of a travel agency to showcase a landing page.I have used HTML and CSS in
+                            making this project.
+                        </div>
+                    </div>
+                    <div class="vertical"> <img class="image-top" src="calc.png" alt="calculator" height="200px"
+                        width="50px">
+                        <div class="vertical-title">
+                            Personal Calculator
+                        </div>
+                        <div class="vertical-desc">
+                            This is a calculator project which I have made with the help of HTML, CSS and JavaScript.
+                            This
+                            calculator can do all the basic calculations like addition, subtraction, multiplication and
+                            division.
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+           
+            <br>
+            <br>
+
+            <hr>
+
+            <section class="forthsection">
+
+                <h1>Skills</h1>
+                <br>
+                <span class="beige" style="margin-left: 4px;font-size: 1.5rem; ">Skills I have learned so far :-</span>
+                <br>
+                <br>
+                <div class="box">
+
+                    <div class="vertical">
+                        <img class="image-top2" src="java.png" alt="html" height="400px" width="45px">
+                        <div class="vertical-title2">
+                            HTML
+                        </div>
+                        <div class="vertical-desc2">
+                            I have a strong command of HTML, and it is the most important to learn because it is the
+                            skeleton of a web page.
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top2" src="css.png" alt="project 1" height="400px" width="45px">
+                        <div class="vertical-title2">
+                            CSS
+                        </div>
+                        <div class="vertical-desc2">
+                            My CSS skills are very good, as you can see above in all the projects I have done, I have
+                            done
+                            quite a lot of work on styling web pages.
+                        </div>
+                    </div>
+                    <div class="vertical"> <img class="image-top3" src="c++.png" alt="project 1" height="400px" width="45px">
+                        <div class="vertical-title2">
+                            C++
+                        </div>
+                        <div class="vertical-desc2">
+                            I have been using C++ language since long time. I have good command over c++ language and I
+                            am quite comfortable for using C++ language.
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <br>
+
+            <footer>
+                <div class="footer">
+                    <div class="footerfirst">
+                        <h3>Manjot's portfolio</h3>
+                    </div>
+                    <div class="footersecond">
+                        <ul>
+                            <li>Home</li>
+                            <li>About Me</li>
+                            <li>Services</li>
+                            <li>Contact</li>
+                        </ul>
+
+                    </div>
+                    <div class="footerthird">
+                        <ul>
+                            <li>Home</li>
+                            <li>About Me</li>
+                            <li>Services</li>
+                            <li>Contact</li>
+                        </ul>
+
+
+                    </div>
+                    <div class="footerforth">
+                        <ul>
+                            <li>Home</li>
+                            <li>About Me</li>
+                            <li>Services</li>
+                            <li>Contact</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="footer-rights">
+                    Copyright&#176manjotportfolio.com || All rights reserved.
+                </div>
+            </footer>
+</body>
+
+</html>
